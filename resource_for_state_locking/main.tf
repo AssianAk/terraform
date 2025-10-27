@@ -10,6 +10,6 @@ resource "aws_dynamodb_table" "dynamodb-for-state-file-lock" {
 
   attribute {
     name = "akash"
-    type = "s"
+    type = "S"
   }
 }
